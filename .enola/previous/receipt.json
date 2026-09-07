@@ -1,0 +1,70 @@
+{
+  "snapshot_id": "sha256:ace1c5d84b094572b28c4bf1980e4b7e0a6b1016fb41b9d98b97af4ca975ccdf",
+  "enola_version": "0.3.13",
+  "extractor_version": "v193",
+  "generated_at": "2026-09-07T05:56:01Z",
+  "duration": "62.6345ms",
+  "repo_path": "/Users/dhaval/Code/tools/ai-job-search",
+  "git": {
+    "ref": "master",
+    "commit": "1a116b3c6492347e040d0546135c9b4c70540fbb",
+    "dirty": true,
+    "remote": "github.com/dhavalfatnani/ai-job-search"
+  },
+  "extractors": null,
+  "explainers": [
+    "cycles",
+    "layers",
+    "crossrepo",
+    "coverage",
+    "unused-routes",
+    "god-class",
+    "hotspots",
+    "dependency-depth",
+    "exported-surface",
+    "complexity-outliers",
+    "intent"
+  ],
+  "renderers": [
+    "llm_context"
+  ],
+  "config_hash": "sha256:3f69b5a0531b1ea2d5616a9c077686532e0780987d59dadc5709e70a8520a13c",
+  "ignore_glob_hash": "sha256:6c8ab920fae7ea8eb82f27f3fae7cf5529afa6ab70db3bf45295696891fc0c5e",
+  "output_hashes": {
+    "facts.jsonl": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "insights.json": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "llm_context.md": "sha256:a4e0de7130d04d89d5462f31709e06c19d54001dd81eef700c8c6be53d90a320"
+  },
+  "fact_count": 0,
+  "insight_count": 0,
+  "quality": {
+    "files_seen": 157,
+    "files_parsed": 0,
+    "files_skipped": 73,
+    "dirs_skipped": 11,
+    "skipped_sample": [
+      ".agents/skills/freehire-search/cli/node_modules/ (glob: **/node_modules/**)",
+      ".agents/skills/freehire-search/cli/tests/cli-flag-validation.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/freehire-search/cli/tests/commands.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/freehire-search/cli/tests/parsing.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/freehire-search/cli/tests/request-timeout.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/freehire-search/cli/tests/retry-backoff.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobbank-search/cli/node_modules/ (glob: **/node_modules/**)",
+      ".agents/skills/jobbank-search/cli/tests/cli-contract.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobbank-search/cli/tests/cli-flag-validation.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobbank-search/cli/tests/detail-jsonld.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobbank-search/cli/tests/detail-url-normalization.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobbank-search/cli/tests/request-timeout.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobbank-search/cli/tests/retry-backoff.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobbank-search/cli/tests/rss-fetch.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobbank-search/cli/tests/rss-parsing.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobbank-search/cli/tests/search-normalization.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobdanmark-search/cli/node_modules/ (glob: **/node_modules/**)",
+      ".agents/skills/jobdanmark-search/cli/tests/autocomplete-filtering.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobdanmark-search/cli/tests/cli-contract.test.ts (glob: **/*.test.ts)",
+      ".agents/skills/jobdanmark-search/cli/tests/cli-flag-validation.test.ts (glob: **/*.test.ts)"
+    ],
+    "parse_errors": 0,
+    "heuristic_insights": 0
+  }
+}
